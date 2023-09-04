@@ -3,7 +3,7 @@
 [![](https://img.shields.io/npm/v/el-tree-transfer-pro)](https://www.npmjs.com/package/el-tree-transfer-pro)
 [![](https://img.shields.io/npm/l/el-tree-transfer-pro)](https://github.com/persiliao/el-tree-transfer-pro/blob/master/LICENSE)
 
-> A tree shaped shuttle box assembly based on Vue3 and element-plus
+> A Vue3 + Element Plus based tree shuttle component. Styles inherit from Element Plus
 
 > 一个基于Vue3 + Element Plus 树形穿梭组件。样式继承Element Plus
 
