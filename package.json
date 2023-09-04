@@ -1,0 +1,24 @@
+{
+  "name": "el-tree-transfer-pro",
+  "version": "1.0.0",
+  "description": "Vue3 ElementPlus",
+  "main": "el-tree-transfer-pro.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/persiliao/el-tree-transfer-pro.git"
+  },
+  "author": "Persi.Liao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/persiliao/el-tree-transfer-pro/issues"
+  },
+  "homepage": "https://github.com/persiliao/el-tree-transfer-pro#readme",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "element-plus": "^2.3.12",
+    "vue": "^3.3.4"
+  }
+}
