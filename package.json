@@ -1,7 +1,13 @@
 {
   "name": "el-tree-transfer-pro",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vue3 + Element Plus based tree shuttle component. Styles inherit from Element Plus - 一个基于Vue3 + Element Plus 树形穿梭组件。样式继承Element Plus",
+  "keywords": [
+    "vue",
+    "vue3",
+    "element-plus",
+    "tree-transfer"
+  ],
   "main": "el-tree-transfer-pro.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
