@@ -16,7 +16,7 @@
       </el-text>
     </div>
     <div class="tree-container">
-      <el-input v-if="showFilter" v-model="filterText" :placeholder="filterPlaceholder" clearable>
+      <el-input v-if="showFilter" v-model="filterText" :placeholder="filterPlaceholder" class="filter-input" clearable>
         <template #prefix>
           <el-icon class="el-input__icon">
             <Search />
@@ -226,7 +226,7 @@ const updateCheckedItems = () => {
 }
 
 const emitModelValue = () => {
-  emits('update:modelValue', treeAllItems.value ?? [])
+  emits('update:modelValue', treeAllItems.value)
 }
 
 const checkAllClick = (checked: boolean) => {
@@ -276,6 +276,10 @@ onMounted(() => {
   
   .tree-container {
     padding: 12px;
+    
+    .filter-input {
+      margin-bottom: 6px;
+    }
   }
 }
 </style>

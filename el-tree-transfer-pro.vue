@@ -1,7 +1,6 @@
 <template>
   <div class="tree-transfer-container">
     <el-tree-transfer-select
-        v-model="leftCheckedValue"
         :children-is-empty="childrenIsEmpty"
         :countKey="countKey"
         :countValue="countValue"
@@ -15,7 +14,9 @@
         :show-filter="showFilter"
         :style="{minWidth: minWidth}"
         :title="leftTitle"
-        class="tree-transfer-select-container" @check="onLeftCheckClick" />
+        class="tree-transfer-select-container"
+        @check="onLeftCheckClick"
+    />
     <div class="tree-transfer-button-container">
       <el-button
           v-if="toLeftButtonText"
@@ -212,7 +213,7 @@ watch(rightCheckedValue, (newRightCheckedValue) => {
 
 watch(() => props.data, (newData) => {
   leftData.value = newData
-}, { immediate: true, deep: true })
+}, { immediate: true })
 
 </script>
 
