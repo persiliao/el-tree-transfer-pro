@@ -15,6 +15,11 @@
 npm i el-tree-transfer-pro
 ```
 
+#### Features
+
+* 灵活的返回值，可返回对象，自定义Node字段值数组
+* 带有过滤输入框
+
 #### Usage
 
 ```vue
@@ -24,22 +29,26 @@ npm i el-tree-transfer-pro
       :data="data"
       :children-is-empty="true"
       :show-filter="true"
-      :default-props="defaultProps"
+      :node-props="nodeProps"
   />
 </template>
 
-<script setup lang="ts">
+<script setup>
 import ElTreeTransferPro from "el-tree-transfer-pro"
-import {ref} from 'vue'
+import {ref, watch} from 'vue'
 
-const defaultProps = ref({
+const nodeProps = ref({
   label: 'label',
   children: 'children',
-  value: 'id',
+  value: 'id', // value field
   disabled: 'disabled'
 })
 
 const value = ref([])
+
+watch(value, (newValue) => {
+  console.log('el-tree-transfer-pro', newValue)
+})
 
 const data = ref([
   {
@@ -102,6 +111,7 @@ const data = ref([
   }
 ])
 </script>
+
 ```
 
 
