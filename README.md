@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/npm/v/el-tree-transfer-pro)](https://www.npmjs.com/package/el-tree-transfer-pro)
 [![](https://img.shields.io/npm/l/el-tree-transfer-pro)](https://github.com/persiliao/el-tree-transfer-pro/blob/master/LICENSE)
+[![使用WebStorm开发维护](https://img.shields.io/badge/WebStorm-提供支持-blue.svg)](https://www.jetbrains.com/?from=el-tree-transfer-pro)
 
 > A Vue3 + Element Plus based tree shuttle component. Styles inherit from Element Plus
 
