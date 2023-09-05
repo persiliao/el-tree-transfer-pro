@@ -127,10 +127,10 @@ const data = ref([
 
 ## Node Props
 
-| Props    | 说明                                                      | 类型                         | 可选值 | 默认值 |
-| :------- | :-------------------------------------------------------- | :--------------------------- | :----- | :----- |
-| label    | 指定节点标签为节点对象的某个属性值                        | string, function(data, node) | —      | —      |
-| children | 指定子树为节点对象的某个属性值                            | string                       | —      | —      |
-| disabled | 指定节点选择框是否禁用为节点对象的某个属性值              | string, function(data, node) | —      | —      |
-| value    | 指定获取的值为数据对象中某个字段, 如果为空将返回node 对象 | string                       | —      | value  |
-| class    | 自定义节点类名                                            | string, function(data, node) | —      | —      |
+| Props    | 说明                                                      | 类型                         | 可选值 | 默认值   |
+| :------- | :-------------------------------------------------------- | :--------------------------- | :----- | :------- |
+| label    | 指定节点标签为节点对象的某个属性值                        | string, function(data, node) | —      | label    |
+| children | 指定子树为节点对象的某个属性值                            | string                       | —      | children |
+| disabled | 指定节点选择框是否禁用为节点对象的某个属性值              | string, function(data, node) | —      | —        |
+| value    | 指定获取的值为数据对象中某个字段, 如果为空将返回node 对象 | string                       | —      | value    |
+| class    | 自定义节点类名                                            | string, function(data, node) | —      | —        |
